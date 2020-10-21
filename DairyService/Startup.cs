@@ -18,6 +18,7 @@ namespace DairyService
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            //"test";
         }
 
         public IConfiguration Configuration { get; }
